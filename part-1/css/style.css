@@ -1,0 +1,42 @@
+main {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+li {
+    margin: 10px;
+}
+
+
+@media (min-width: 0) and (max-width: 576px) {
+    main {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    main {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+        color: #b35bad;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    main {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 45px;
+        color: #b05b7c;
+        background-color: #f5ff76;
+    }
+
+    #firstletter::first-letter {
+        font-weight: bolder;
+        color: red;
+        font-size: 100px;
+        
+    }
+}
+
+
